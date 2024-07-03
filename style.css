@@ -1,0 +1,78 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+
+.container {
+    text-align: center;
+}
+
+.stopwatch {
+    background: yellow;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+#display {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: yellow;
+    color: black;
+    cursor: pointer;
+    transition: background 0.3s, border-color 0.3s;
+}
+
+button:hover {
+    background: #e0e0e0;
+    border-color: #bbb;
+}
+
+.laps {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.laps h2 {
+    margin-bottom: 10px;
+    color: black;
+}
+
+#lapsList {
+    list-style-type: none;
+    padding: 0;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+#lapsList li {
+    background: yellow;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    color: black;
+    border: 1px solid #ccc;
+}
